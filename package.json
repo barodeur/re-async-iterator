@@ -1,0 +1,31 @@
+{
+  "name": "re-async-iterator",
+  "version": "0.0.1",
+  "description": "Async Iterator libeary for rescript",
+  "scripts": {
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barodeur/re-async-iterator.git"
+  },
+  "keywords": [
+    "rescript",
+    "async-iterator"
+  ],
+  "author": "Paul Chobert <paul@chobert.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/barodeur/re-async-iterator/issues"
+  },
+  "homepage": "https://github.com/barodeur/re-async-iterator#readme",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  },
+  "dependencies": {
+    "@ryyppy/rescript-promise": "^2.1.0"
+  }
+}

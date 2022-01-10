@@ -1,0 +1,16 @@
+{
+  "name": "re-async-iterator",
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
+  "refmt": 3,
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": false
+  }],
+  "sources": [
+    {
+      "dir": "src",
+      "public": "all"
+    }
+  ],
+  "bs-dependencies": ["@ryyppy/rescript-promise"]
+}
